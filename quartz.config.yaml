@@ -230,8 +230,6 @@ plugins:
     enabled: true
     options:
       links:
-        # GitHub: https://github.com/jackyzha0/quartz
-        # Discord Community: https://discord.gg/cRFFHYye7t
         GitHub: https://github.com/akshayavb99
         Portfolio: https://akshayavb99.github.io
     layout:
@@ -268,6 +266,13 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+  - source: "@quartz-community/obsidian-plugin-excalidraw"
+    enabled: true
+    options:
+      enableInteraction: true
+      darkMode: auto
+      exportPadding: 20
+    order: 50
   - source: "@quartz-community/obsidian-plugin-excalidraw"
     enabled: true
     options:
